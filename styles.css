@@ -1,24 +1,29 @@
 body {
     display: flex;
-    width: 100vw;
+    flex-direction: column;
     justify-content: center;
-  }
-  
-  .container {
-    display: flex;
-    width: 85vw;
+    align-items: center;
     height: 100vh;
+}
+.container {
+    height: 500px;
+    width: 500px;
     border: 1px solid black;
+    display: flex;
     flex-wrap: wrap;
-    padding: 0;
-  }
-  
-  .container > div {
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
-    margin: 0px;
-    padding: 0px;
-    flex: 5.88%;
-    
-  }
+}
+
+.box {
+    display: flex;
+    flex: 1 0 auto;
+    width: calc(100% / 16);
+    height: calc(100% / 16);
+    box-sizing: border-box;
+}
+
+button,
+form {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
