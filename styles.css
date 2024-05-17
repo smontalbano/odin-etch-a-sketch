@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    width: 85vw;
+    height: 100vh;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  
+  .container > div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    flex: 5.88%;
+    
+  }
